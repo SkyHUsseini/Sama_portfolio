@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sama Husseini</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="container">
+        <nav class="nav fs-nav">
+          <a href=""><img class="logo" src="./images/logo.svg" alt="" /></a>
+          <div class="nav-wrapper">
+            <ul class="nav-links" role="list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <ul role="list" class="nav-social-icons">
+              <li>
+                <a href=""
+                  ><img class="social-icon" src="./images/github.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img class="social-icon" src="./images/instagram.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img class="social-icon" src="./images/linkedin.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <button class="burger-btn">
+            <img class="hamburger-icon" src="./images/hamburger.svg" alt="" />
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <section class="main">
+      <div class="container">
+        <div class="even-col">
+          <div class="coder-text">
+            <div>
+              <h1 class="coder-heading text-primary">coder</h1>
+              <p class="fs-paragraph text-darktGrey">
+                Passionate frontend developer who writes clean, efficient code.
+              </p>
+            </div>
+          </div>
+          <div class="profile-pic">
+            <img
+              class="profile-img"
+              src="./images/profielpic-pixilated.png"
+              onmouseover="newImg(this)"
+              onmouseout="oldImg(this)"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="latest-work">
+      <div class="container">
+        <h3 class="text-center fs-paragraph text-lightGrey padding-block-900">
+          See my latest work
+        </h3>
+      </div>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/7947351a45.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
