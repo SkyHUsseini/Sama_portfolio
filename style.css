@@ -228,6 +228,8 @@ body {
   }
   html {
     overflow-x: hidden;
+      -webkit-overflow-scrolling: none;
+
   }
 }
 .nav-wrapper-active {
