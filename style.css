@@ -68,13 +68,13 @@ ol[role="list"] {
 }
 
 /* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth;
-}
+
 
 html,
 body {
   height: 100%;
+    overflow-x: hidden;
+
 }
 
 /* Set core body defaults */
@@ -226,15 +226,11 @@ body {
     width: 2.75rem;
   }
 }
-html {
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: none;
-}
+
 .nav-wrapper-active {
   transform: translateX(0%);
   opacity: 1;
-  /* display: flex; */
-  /* position: fixed; */
+
 }
 /*MAIN SECTION*/
 
@@ -291,11 +287,7 @@ html {
     max-width: 300px;
   }
 }
-/* @media (min-width: 50em) {
-  .profile-img {
-    max-width: 600px;
-  }
-} */
+
 /*Utility classes*/
 .text-center {
   text-align: center;
