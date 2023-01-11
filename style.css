@@ -239,11 +239,14 @@ html {
 /*MAIN SECTION*/
 
 .main {
-  background: url("./images/coder-bg.jpg");
+  background: url("./images/coder-bg.gif");
   background-repeat: no-repeat;
-  background-size: cover;
+  -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+    background-size: cover;
   border-bottom: 1px solid var(--clr-lightGrey);
-  /* box-shadow: 0 0 7px var(--clr-lightGrey); */
+  
 }
 .coder-text {
   background-color: rgba(255, 255, 255, 0.416);
