@@ -226,7 +226,7 @@ body {
   .logo {
     width: 2.75rem;
   }
-  body {
+  html {
     overflow-x: hidden;
   }
 }
@@ -239,7 +239,7 @@ body {
 /*MAIN SECTION*/
 
 .main {
-  background: url("./images/code-bg-colors.jpg");
+  background: url("./images/code-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 1px solid var(--clr-lightGrey);
